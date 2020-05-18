@@ -15,7 +15,12 @@ dependencies {
     // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
     testCompile group: 'io.rest-assured', name: 'rest-assured', version: '4.3.0'
 
+
     // https://mvnrepository.com/artifact/io.cucumber/cucumber-java
     compile group: 'io.cucumber', name: 'cucumber-java', version: '5.7.0'
+
+    // https://mvnrepository.com/artifact/org.testng/testng
+    testCompile group: 'org.testng', name: 'testng', version: '7.1.0'
+
 
 }

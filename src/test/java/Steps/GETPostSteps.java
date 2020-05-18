@@ -22,8 +22,13 @@ public class GETPostSteps {
     public void iShouldSeeTheAuthorNameAs(String arg0) {
     }
 
-    @Then("I should see the author names")
+    @Then("I should see the author names$")
     public void iShouldSeeTheAuthorNames() {
         BDDStyledMethod.PerformContainsCollection();
+    }
+
+    @Then("I should see verify GET Parameter$")
+    public void iShouldSeeVerifyGETParameter() {
+        BDDStyledMethod.PerformPathParameter();
     }
 }
